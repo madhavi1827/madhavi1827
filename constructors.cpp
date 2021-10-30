@@ -8,6 +8,7 @@ class Student
   string name;
 public:
   Student(int p_regno,const string &p_name) :(regno(p_regno),name(p_name) {}
+  Student(): Student(0,"yugandhar",s)
 };
 
 int main()
